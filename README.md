@@ -17,7 +17,7 @@ and
   
 To show the message:
 
-  box.show( 'This is the message' );
+    box.show( 'This is the message' );
 
 or, when implicitly used with the map:
 
@@ -27,6 +27,7 @@ or, when implicitly used with the map:
 # Added options are 
 
 `SetClass:` (string) you can define your class without altering your CSS code. It also work if you are using custom frameworks such as Bootstrap.
+
 `timeout:` (int) you can now disable the timeout (disappearing messagebox) by setting the value to 0. This will make the message box permanent.
 
 
